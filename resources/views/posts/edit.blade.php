@@ -1,0 +1,1 @@
+@extends('layouts.app',['title'=>'Edit Announcement']) @section('content')<h2>Edit Announcement</h2><div class="card p-4">@include('posts.form',['action'=>route('posts.update',$post),'method'=>'PUT','button'=>'Save Changes'])</div>@endsection

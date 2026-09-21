@@ -1,0 +1,1 @@
+@extends('layouts.app',['title'=>'Add Category']) @section('content')<h2>Add Category</h2><div class="card p-4">@include('categories.form',['action'=>route('categories.store'),'method'=>'POST','button'=>'Create Category'])</div>@endsection

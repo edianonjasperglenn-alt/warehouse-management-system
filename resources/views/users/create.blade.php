@@ -1,0 +1,1 @@
+@extends('layouts.app',['title'=>'Add User']) @section('content')<h2>Add User</h2><div class="card p-4">@include('users.form',['action'=>route('users.store'),'method'=>'POST','button'=>'Create User'])</div>@endsection
